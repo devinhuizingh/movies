@@ -2,7 +2,7 @@ $(document).ready( function() {
 	
 	$(".movie").submit(function(e) {
 		e.preventDefault();
-		$(".recomendations").append("");
+		$(".recomendations").html("");
 		var input = $(".input").val();
 		getData(input)
 	});
