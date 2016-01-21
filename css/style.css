@@ -13,6 +13,7 @@ body {
 .movie {
 	text-align: center;
 	margin: 0 auto;
+	font-size: 2em;
 }
 
 .recomendations{
@@ -20,6 +21,10 @@ body {
 		margin: 0 auto;
 		color: white;
 }
+
+form input {
+height: 1.1em;
+font-size: 1.1em;
 
 p {
 	padding-bottom: -1em;
