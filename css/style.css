@@ -25,6 +25,11 @@ body {
 form input {
 height: 1.1em;
 font-size: 1.1em;
+}
+
+form input[type="submit"] {
+height: 1.3em;
+}
 
 p {
 	padding-bottom: -1em;
