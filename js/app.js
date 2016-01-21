@@ -4,8 +4,9 @@ $(document).ready( function() {
 		e.preventDefault();
 		$(".recomendations").html("");
 		var input = $(".input").val();
+		$(".recomendations").html("See results below...")
 		getData(input)
-	});
+		});
 
 	function getData(input){
 		var params={

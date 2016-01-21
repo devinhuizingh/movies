@@ -1,12 +1,25 @@
+body {
+	background: black;
+	}
+	
+
 #search {
-	text-align: center
+	text-align: center;
+	color: white;
+	max-width: 1100px;
 }
 
 .movie {
 	text-align: center
 }
 
+.recomendations{
+		max-width: 600px;
+		margin: 0 auto;
+		color: white;
+}
+
 p {
 	padding-bottom: -1em;
-	margin-bottom: -1em
+	margin-bottom: -1em;
 }
